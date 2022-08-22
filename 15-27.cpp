@@ -96,9 +96,8 @@ int main() {
         }
 
         if(arr[rightstart] == x) {
-            rightans = rightend;
+            rightans = rightstart;
         }
-        rightans = rightend;
 
         cout << rightans << ' ';
         cout << leftans << '\n';
