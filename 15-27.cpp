@@ -103,5 +103,6 @@ int main() {
         cout << leftans << '\n';
         cout << rightans - leftans + 1 << '\n';
     }
+    
     return 0;
 }
